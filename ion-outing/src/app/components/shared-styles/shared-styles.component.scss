@@ -1,0 +1,65 @@
+/* Purple Team Outing Theme */
+:host ::ng-deep {
+  body {
+    background: linear-gradient(135deg, #EDE7F6 0%, #F3E5F5 100%);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .card {
+    background: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(106, 27, 154, 0.15);
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 2px solid #EDE7F6;
+    transition: all 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(106, 27, 154, 0.25);
+    border-color: #6A1B9A;
+  }
+
+  .card-header {
+    background: linear-gradient(90deg, #6A1B9A, #9C27B0);
+    color: white;
+  }
+
+  .btn {
+    background: linear-gradient(90deg, #6A1B9A, #9C27B0);
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(106, 27, 154, 0.3);
+    transition: all 0.3s ease;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(106, 27, 154, 0.4);
+  }
+
+  .team-header {
+    background: linear-gradient(90deg, #6A1B9A, #9C27B0);
+  }
+
+  .tab-btn.active {
+    background: #6A1B9A;
+  }
+
+  input:focus, select:focus {
+    border-color: #6A1B9A;
+    box-shadow: 0 0 0 3px rgba(106, 27, 154, 0.1);
+  }
+
+  .badge.male {
+    background: #26C6DA;
+  }
+
+  .badge.female {
+    background: #C6FF00;
+    color: #333;
+  }
+}
